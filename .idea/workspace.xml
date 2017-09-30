@@ -66,37 +66,118 @@
               <caret line="105" column="28" lean-forward="false" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3169#3170#0" expanded="true" />
-                <element signature="e#3220#3221#0" expanded="true" />
+                <element signature="e#3167#3168#0" expanded="true" />
+                <element signature="e#3218#3219#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Helpers/FileWriter.java">
+      <file leaf-file-name="MyWriter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Helpers/MyWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="249">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatCalc.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StatCalc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Helpers/StatCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="271">
+              <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#585#586#0" expanded="true" />
                 <element signature="e#659#660#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/edu.neu.ccs.cs6650" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/edu.neu.ccs.cs6650">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>edu.neu.ccs.cs6650</OriginalElement>
+              <nodes>
+                <node x="58.5" y="107.0">edu.neu.ccs.cs6650.Helpers</node>
+                <node x="30.0" y="0.0">edu.neu.ccs.cs6650.Client</node>
+                <node x="0.0" y="189.0">edu.neu.ccs.cs6650.Server</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="edu.neu.ccs.cs6650.Helpers" target="edu.neu.ccs.cs6650.Client">
+                  <point x="-38.25" y="-18.5" />
+                  <point x="96.75" y="87.0" />
+                  <point x="117.5" y="87.0" />
+                  <point x="17.5" y="18.5" />
+                </edge>
+                <edge source="edu.neu.ccs.cs6650.Client" target="edu.neu.ccs.cs6650.Client">
+                  <point x="-52.5" y="18.5" />
+                  <point x="47.5" y="57.0" />
+                  <point x="10.0" y="57.0" />
+                  <point x="10.0" y="27.75" />
+                  <point x="-70.0" y="9.25" />
+                </edge>
+                <edge source="edu.neu.ccs.cs6650.Client" target="edu.neu.ccs.cs6650.Helpers">
+                  <point x="52.5" y="18.5" />
+                  <point x="152.5" y="87.0" />
+                  <point x="173.25" y="87.0" />
+                  <point x="38.25" y="-18.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-263.0" y="100.0" />
+              <SelectedNodes>
+                <node>edu.neu.ccs.cs6650.Client</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/edu.neu.ccs.cs6650.Client" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/edu.neu.ccs.cs6650.Client">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>edu.neu.ccs.cs6650.Client</OriginalElement>
+              <nodes>
+                <node x="90.0" y="0.0">edu.neu.ccs.cs6650.Client.RequestResult</node>
+                <node x="0.0" y="277.0">edu.neu.ccs.cs6650.Client.MyClient</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="edu.neu.ccs.cs6650.Client.MyClient" target="edu.neu.ccs.cs6650.Client.RequestResult">
+                  <point x="-116.0" y="-167.5" />
+                  <point x="116.0" y="252.0" />
+                  <point x="161.0" y="252.0" />
+                  <point x="-71.0" y="113.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-271.0" y="221.0" />
+              <SelectedNodes>
+                <node>edu.neu.ccs.cs6650.Client.RequestResult</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -156,6 +237,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Helpers/StatCalc.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Helpers/WriteMyFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Client/CoolerClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Helpers/MyWriter.java" />
       </list>
     </option>
   </component>
@@ -961,12 +1043,12 @@
       <workItem from="1506631544379" duration="4370000" />
       <workItem from="1506658142958" duration="4092000" />
       <workItem from="1506664077776" duration="24150000" />
-      <workItem from="1506753494258" duration="17750000" />
+      <workItem from="1506753494258" duration="18270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63920000" />
+    <option name="totallyTimeSpent" value="64440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -992,7 +1074,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121114686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19399786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14156285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37755102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1059,22 +1141,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1099,8 +1165,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3169#3170#0" expanded="true" />
-            <element signature="e#3220#3221#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#3218#3219#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1464,6 +1530,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Client/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="105" column="28" lean-forward="false" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#3218#3219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs6650">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs6650</OriginalElement>
+          <nodes>
+            <node x="58.5" y="107.0">edu.neu.ccs.cs6650.Helpers</node>
+            <node x="30.0" y="0.0">edu.neu.ccs.cs6650.Client</node>
+            <node x="0.0" y="189.0">edu.neu.ccs.cs6650.Server</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="edu.neu.ccs.cs6650.Helpers" target="edu.neu.ccs.cs6650.Client">
+              <point x="-38.25" y="-18.5" />
+              <point x="96.75" y="87.0" />
+              <point x="117.5" y="87.0" />
+              <point x="17.5" y="18.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs6650.Client" target="edu.neu.ccs.cs6650.Client">
+              <point x="-52.5" y="18.5" />
+              <point x="47.5" y="57.0" />
+              <point x="10.0" y="57.0" />
+              <point x="10.0" y="27.75" />
+              <point x="-70.0" y="9.25" />
+            </edge>
+            <edge source="edu.neu.ccs.cs6650.Client" target="edu.neu.ccs.cs6650.Helpers">
+              <point x="52.5" y="18.5" />
+              <point x="152.5" y="87.0" />
+              <point x="173.25" y="87.0" />
+              <point x="38.25" y="-18.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-263.0" y="100.0" />
+          <SelectedNodes>
+            <node>edu.neu.ccs.cs6650.Client</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs6650.Client">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs6650.Client</OriginalElement>
+          <nodes>
+            <node x="90.0" y="0.0">edu.neu.ccs.cs6650.Client.RequestResult</node>
+            <node x="0.0" y="277.0">edu.neu.ccs.cs6650.Client.MyClient</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="edu.neu.ccs.cs6650.Client.MyClient" target="edu.neu.ccs.cs6650.Client.RequestResult">
+              <point x="-116.0" y="-167.5" />
+              <point x="116.0" y="252.0" />
+              <point x="161.0" y="252.0" />
+              <point x="-71.0" y="113.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-271.0" y="221.0" />
+          <SelectedNodes>
+            <node>edu.neu.ccs.cs6650.Client.RequestResult</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Server/MyResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1474,38 +1630,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Client/MyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="105" column="28" lean-forward="false" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3169#3170#0" expanded="true" />
-            <element signature="e#3220#3221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Helpers/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Helpers/StatCalc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="271">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
             <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs6650/Helpers/MyWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
           </folding>
         </state>
       </provider>

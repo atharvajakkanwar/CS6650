@@ -12,7 +12,7 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 
 import edu.neu.ccs.cs6650.Helpers.StatCalc;
-import edu.neu.ccs.cs6650.Helpers.FileWriter;
+import edu.neu.ccs.cs6650.Helpers.MyWriter;
 
 /**
  * Created by Atharva Jakkanwar on 29-Sep-17.
@@ -130,7 +130,7 @@ public class MyClient {
     System.out.println("95th Percentile: " +calc.percentile(95));
 
     //CSV for plot
-    FileWriter writer = new FileWriter("post100_100.csv");
+    MyWriter writer = new MyWriter("post100_100.csv");
     writer.write(results);
   }
 }
